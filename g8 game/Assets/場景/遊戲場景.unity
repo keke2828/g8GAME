@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.2
+  m_AmbientIntensity: 1.02
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -1191,7 +1191,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &714896522
@@ -1201,8 +1201,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714896519}
-  m_LocalRotation: {x: 0.32494444, y: 0.50190806, z: -0.21090885, w: 0.7733156}
-  m_LocalPosition: {x: 220.17683, y: 130.7856, z: -258.0901}
+  m_LocalRotation: {x: -0.33160284, y: -0.2998153, z: 0.112062246, w: -0.88746405}
+  m_LocalPosition: {x: 225.33977, y: 127.73468, z: -259.39044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1456,6 +1456,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b9f39d9cd29ae34e95f004264b0771e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  turn: 20.5
+  mission: 0
+  _name: G8 chicken
 --- !u!1001 &865940456
 PrefabInstance:
   m_ObjectHideFlags: 0

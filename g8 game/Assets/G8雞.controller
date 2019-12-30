@@ -36,7 +36,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8305327907975971683}
-    m_Position: {x: 280, y: 100, z: 0}
+    m_Position: {x: 300, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6788954912576092486}
     m_Position: {x: 280, y: 190, z: 0}
@@ -161,7 +161,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: "\u8D70\u8DEF\u958B\u95DC"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
